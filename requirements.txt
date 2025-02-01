@@ -8,3 +8,6 @@ transformers>=4.31.0
 chromadb==0.4.12
 jupyter==1.0.0
 tiktoken==0.4.0
+python-dotenv==1.0.1
+nb_conda_kernels
+ipykernel

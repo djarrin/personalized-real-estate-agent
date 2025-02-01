@@ -14,6 +14,7 @@ install_rust:
 install_reqs:
 	python -m pip install --upgrade pip setuptools wheel && \
 	pip install -r requirements.txt
+	python -m ipykernel install --user --name=$(ENV_NAME) --display-name "Python ($(ENV_NAME))"
 
 # Export installed dependencies to requirements.txt
 export_reqs:

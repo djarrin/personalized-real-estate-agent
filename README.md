@@ -43,4 +43,11 @@ This will:
 - Ensure **`pip`**, `setuptools`, and `wheel` are up-to-date.
 - Install all dependencies from `requirements.txt`.
 
+### **6. Add env to Jupyter Notebook Kernal**
+In order to use the enviroment we created with the make commands, while the env is active run
+```bash
+python -m ipykernel install --user --name=my_env --display-name "Python my_env" 
+```
+then when you start up the notebook choose the Python my_env for the Kernal
+
 
