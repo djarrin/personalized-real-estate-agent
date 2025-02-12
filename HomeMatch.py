@@ -11,11 +11,9 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.schema import Document
 from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
-
-def load_env():
-    load_dotenv()
-    openai.api_key = os.getenv("OPENAI_API_KEY")
-    openai.api_base = os.getenv("OPENAI_API_BASE")
+from config import OPENAI_API_KEY, OPENAI_API_BASE
+from vector_db import create_vector_db, query_vector_db
+    
 
 def generate_home_listings(prompt, index):
     system_prompt = """
@@ -59,66 +57,13 @@ def generate_home_listings(prompt, index):
         temperature=1,
         max_tokens=256
     )
-    return json.loads(response.choices[0].message.content.strip())
-
-def create_vector_db(listings, db_path):
-    text_splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
-    documents = []
-    
-    for listing in listings:
-        content = f"""
-        Address: {listing["Address"]}
-        Neighborhood: {listing["Neighborhood"]}
-        Price: {listing["Price"]}
-        Bedrooms: {listing["Bedrooms"]}
-        Bathrooms: {listing["Bathrooms"]}
-        House Size: {listing["House_Size"]}
-        Description: {listing["Description"]}
-        """
-        chunks = text_splitter.split_text(content)
-        for chunk in chunks:
-            documents.append(Document(page_content=chunk, metadata=listing))
-    
-    vector_db = Chroma.from_documents(documents, OpenAIEmbeddings(), persist_directory=db_path)
-    vector_db.persist()
-    print(f"Database saved to {db_path}")
-
-def query_vector_db(vector_db, structured_preferences):
-    """Retrieve relevant listings using vector database search."""
-        
-    metadata = structured_preferences.get("metadata", {})  # Extract structured search criteria
-    
-    query_text = ' '.join([
-        f'Neighborhood: {metadata.get("Neighborhood", "")} Importance: High',
-        f'Price: {metadata.get("Price", "")} Importance: High',
-        f'Bedrooms: {metadata.get("Bedrooms", "")} Importance: Medium',
-        f'Bathrooms: {metadata.get("Bathrooms", "")} Importance: Medium',
-        f'Features: {", ".join(metadata.get("Features", []))} Importance: Medium'
-    ])
-        
-    # Convert query text into an embedding
-    query_embedding = OpenAIEmbeddings().embed_query(query_text)
-    
-    # Perform similarity search with top-k results
-    results = vector_db.similarity_search_by_vector(query_embedding, k=5)
-    
-    # Convert search results into structured list format
-    listings = [
-        {
-            "Address": result.metadata.get("Address", "Unknown"),
-            "Neighborhood": result.metadata.get("Neighborhood", "Unknown"),
-            "Price": result.metadata.get("Price", "Unknown"),
-            "Bedrooms": result.metadata.get("Bedrooms", "Unknown"),
-            "Bathrooms": result.metadata.get("Bathrooms", "Unknown"),
-            "House_Size": result.metadata.get("House_Size", "Unknown"),
-            "Description": result.metadata.get("Description", "Unknown"),
-            "Neighborhood_Description": result.metadata.get("Neighborhood_Description", "Unknown"),
-            "Features": result.metadata.get("Features", [])
-        }
-        for result in results
-    ]
-    
-    return listings
+    try:
+        content = response.choices[0].message.content.strip()
+        return json.loads(content)  
+    except json.JSONDecodeError as e:
+        print(f"JSON Parsing Error: {e}")
+        print("Raw OpenAI Response:", content)  
+        return None  
 
 def collect_user_preferences():
     questions = [
@@ -278,7 +223,8 @@ def generate_personalized_description(llm, user_prefs, listing):
     return response
 
 def main():
-    load_env()
+    openai.api_key = OPENAI_API_KEY
+    openai.api_base = OPENAI_API_BASE
     llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.7)
     
     default_db_path = "vector_db"
