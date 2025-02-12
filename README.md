@@ -58,8 +58,10 @@ With the proper environment activated with conda run
 python HomeMatch.py
 ```
 This will start the program and will prompt you with serveral questions such as:
+
 1) The path of your vector database.
 2) If you would like to generate new synthetic listings
+
 From there you will be prompted with questions about what home you're in the market to buy and the application will then query over the synthetic data and return a personalized description of the property to you.
 
 ## Example Outputs
