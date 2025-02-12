@@ -1,137 +1,152 @@
 [
     {
+        "Address": "123 S Main Street, Baltimore",
         "Neighborhood": "Baltimore",
         "Price": "$400,000",
         "Bedrooms": 4,
         "Bathrooms": 2,
         "House_Size": "4,000 sqft",
-        "Description": "Welcome to your spacious 4-bedroom haven in Baltimore! This charming house boasts ample natural light, a modern layout, and a convenient parking pad. With 4,000 sqft of living space, enjoy the comfort and room to grow. Nestled near a tranquil park, this home offers a perfect balance of relaxation and urban living.",
-        "Neighborhood_Description": "Experience the vibrant community of Baltimore where convenience meets serenity. Discover nearby parks for leisurely strolls and recreational activities. Embrace the local charm and explore a variety of dining options and entertainment venues. Easy access to transportation makes commuting a breeze, ensuring that you're always connected to the pulse of the city."
+        "Description": "Welcome to this spacious 4-bedroom, 2-bathroom home in Baltimore! This charming house boasts ample natural lighting, a parking pad for your convenience, and a prime location near the park. With 4,000 sqft of living space, this property offers the perfect blend of comfort and functionality.",
+        "Neighborhood_Description": "Nestled in the vibrant city of Baltimore, this neighborhood offers a perfect balance of urban convenience and suburban tranquility. Enjoy easy access to local parks, restaurants, and community amenities. Experience the charm of city living while being surrounded by green spaces and a welcoming community atmosphere."
     },
     {
+        "Address": "123 Main Street, Washington DC",
         "Neighborhood": "Washington DC",
         "Price": "$600,000",
         "Bedrooms": 2,
         "Bathrooms": 1,
         "House_Size": "1,200 sqft",
-        "Description": "Welcome to your charming 2-bedroom home in the heart of Washington DC! This cozy house features a lovely back patio, perfect for enjoying morning coffee or hosting intimate gatherings. With ample natural light, the interior boasts a warm and inviting atmosphere. Don't miss out on the convenience of street parking and the potential to create your own urban oasis.",
-        "Neighborhood_Description": "Experience the vibrant energy of Washington DC living in this desirable neighborhood. You'll love the proximity to local parks, trendy restaurants, and convenient transportation options. Enjoy a dynamic blend of history and modernity, making every day an exciting adventure in this bustling city."
+        "Description": "Charming 2-bedroom home in the heart of Washington DC! This cozy abode features a lovely back patio perfect for outdoor relaxation. With ample natural light flowing through, this inviting space is ideal for hosting gatherings or enjoying peaceful evenings. Don't miss out on this gem with convenient street parking!",
+        "Neighborhood_Description": "Nestled in Washington DC, this vibrant neighborhood offers a dynamic blend of history and modernity. Enjoy easy access to renowned restaurants, cultural attractions, and scenic parks. With a strong sense of community, diverse entertainment options, and excellent transportation links, this locale promises a balanced urban lifestyle for its residents."
     },
     {
+        "Address": "1234 Oak Street, Dallas",
         "Neighborhood": "Dallas",
         "Price": "$500,000",
         "Bedrooms": 6,
         "Bathrooms": 3,
         "House_Size": "8,000 sqft",
-        "Description": "Welcome to your spacious 6-bedroom, 3-bathroom home in Dallas! This stunning house boasts a generous 8,000 sqft of living space, perfect for large families or those who love to entertain. Enjoy the luxury of a large backyard, ideal for outdoor gatherings or simply unwinding in your private oasis. With three garages, parking will never be an issue, offering convenience and ample storage space. Embrace comfort and style in this remarkable residence.",
-        "Neighborhood_Description": "Nestled in the vibrant city of Dallas, this neighborhood offers a blend of urban convenience and suburban tranquility. Explore nearby parks, trendy restaurants, and cultural attractions. With easy access to transportation and a thriving community atmosphere, this location provides the perfect balance of city life and suburban charm. Experience the best of both worlds in this sought-after neighborhood."
+        "Description": "Welcome to this spacious 6-bedroom, 3-bathroom home in Dallas! This stunning property features a sizeable backyard, perfect for outdoor entertaining and relaxation. Enjoy the convenience of three garages providing ample parking space. With 8,000 sqft of living space, this home offers room for the whole family to spread out and make lasting memories.",
+        "Neighborhood_Description": "Dallas offers a vibrant urban lifestyle with a mix of modern amenities and Southern charm. Enjoy easy access to a variety of parks, restaurants, and shopping options nearby. The neighborhood is known for its cultural diversity and vibrant community atmosphere. Commuting is a breeze with well-connected transportation options. Experience the best of city living in the heart of Dallas!"
     },
     {
+        "Address": "123 Main Street, New York",
         "Neighborhood": "New York",
         "Price": "$800,000",
         "Bedrooms": 1,
         "Bathrooms": 1,
         "House_Size": "400 sqft",
-        "Description": "Welcome to this charming 1-bedroom apartment in the heart of New York! This cozy space features a modern bathroom and kitchen, with the added bonus of a beautiful window that floods the apartment with natural light. Ideal for individuals seeking a stylish and compact urban living experience.",
-        "Neighborhood_Description": "Experience the vibrant energy of New York right at your doorstep. Enjoy easy access to a plethora of restaurants, shops, and cultural attractions. With excellent transportation facilities and a dynamic community atmosphere, living in New York offers a perfect blend of convenience and excitement."
+        "Description": "Charming 1-bedroom apartment in the heart of New York featuring a cozy kitchen, a modern bathroom, and a bright window offering natural light throughout the day. Perfect for urban living with a touch of elegance.",
+        "Neighborhood_Description": "Experience the vibrant energy of New York City living in this dynamic neighborhood with easy access to renowned restaurants, lively entertainment venues, and exceptional cultural attractions. Enjoy the convenience of nearby transportation options and a bustling urban atmosphere."
     },
     {
+        "Address": "123 E Main Street, Baltimore",
         "Neighborhood": "Baltimore",
         "Price": "$205,000",
         "Bedrooms": 2,
         "Bathrooms": 1,
         "House_Size": "1,100 sqft",
-        "Description": "Charming 2-bedroom house in Baltimore offering breathtaking harbor views. This cozy home boasts a well-designed layout with ample natural lighting, creating a warm and inviting atmosphere. Perfect for those seeking a peaceful retreat in the heart of the city. Enjoy the convenience of being within walking distance to stadiums, ensuring you never miss out on the excitement of game days.",
-        "Neighborhood_Description": "Experience the vibrant energy of Baltimore's dynamic neighborhood. With easy access to parks, restaurants, and entertainment venues, this area is a paradise for urban explorers. Embrace a lively community atmosphere and indulge in the diverse culinary scene. The proximity to the harbor adds a touch of serenity to the bustling city life, offering a perfect balance for residents seeking a well-rounded urban experience."
+        "Description": "Charming 2-bedroom home with a breathtaking harbor view! This cozy residence offers a perfect blend of comfort and style. Enjoy the convenience of a prime location within walking distance to the stadiums, making it ideal for sports enthusiasts.",
+        "Neighborhood_Description": "Nestled in the heart of Baltimore, this vibrant neighborhood boasts a lively atmosphere with plenty of entertainment options. From nearby parks to trendy restaurants, residents can indulge in a diverse range of experiences. Explore the rich culture and lively spirit of the community, all within reach of this beautiful home."
     },
     {
+        "Address": "1245 Oak Street, San Francisco",
         "Neighborhood": "San Francisco",
         "Price": "$812,000",
         "Bedrooms": 2,
         "Bathrooms": 1,
         "House_Size": "1,100 sqft",
-        "Description": "Charming 2-bedroom home in the heart of San Francisco, offering cozy living spaces with ample natural light. This well-maintained house features a modern kitchen, spacious bedrooms, and a private backyard oasis perfect for relaxation and entertainment. Conveniently located near public transit, parks, and trendy cafes.",
-        "Neighborhood_Description": "Experience the vibrant energy of San Francisco living in this sought-after neighborhood. Enjoy easy access to public transportation options, lush green parks perfect for leisurely strolls, and a diverse culinary scene just steps away from your doorstep. Embrace city living at its finest in this desirable area."
+        "Description": "Charming 2-bedroom home with a cozy atmosphere perfect for urban living. This residence features a spacious layout with ample natural light, ideal for relaxation and entertaining. Conveniently located near public transit, allowing easy access to the city's vibrant offerings.",
+        "Neighborhood_Description": "The San Francisco neighborhood offers a dynamic mix of urban convenience and natural beauty. Residents enjoy proximity to lush parks, including a nearby park perfect for leisurely strolls. With excellent access to public transportation, this location provides easy commutes and access to a plethora of dining and recreational options."
     },
     {
+        "Address": "123 N Canal Street, Chicago",
         "Neighborhood": "Chicago",
         "Price": "$700,000",
         "Bedrooms": 3,
         "Bathrooms": 1,
         "House_Size": "1,100 sqft",
-        "Description": "This stunning 3-bedroom apartment in the heart of Chicago offers a serene escape with a picturesque view of the river. The modern architecture and spacious layout provide a comfortable living experience. Natural light floods through the windows, illuminating the charming interior features. Perfect for those seeking a luxurious urban retreat.",
-        "Neighborhood_Description": "Located in vibrant Chicago, this neighborhood boasts a dynamic atmosphere with trendy restaurants, cultural attractions, and scenic riverfront views. Residents enjoy easy access to public transportation, lush parks, and a bustling community ambiance. Experience the best of city living surrounded by entertainment, dining, and recreational opportunities."
+        "Description": "Modern 3-bedroom apartment with stunning river views. This chic urban retreat offers a perfect blend of style and comfort. Featuring a spacious layout flooded with natural light, high ceilings, and sleek finishes. The open-concept kitchen boasts stainless steel appliances and ample storage. Ideal for those seeking a sophisticated city lifestyle.",
+        "Neighborhood_Description": "Experience the bustling energy of Chicago's vibrant River North neighborhood. Surrounded by top-rated restaurants, trendy boutiques, and cultural attractions. Enjoy easy access to the riverwalk, ideal for outdoor activities and leisurely strolls. Convenient transportation options make exploring the city a breeze. Embrace urban living at its finest!"
     },
     {
-        "Neighborhood": "Upstate New York",
+        "Address": "123 Pine Street, New York",
+        "Neighborhood": "New York",
         "Price": "$500,000",
         "Bedrooms": 3,
         "Bathrooms": 2,
         "House_Size": "2,100 sqft",
-        "Description": "Welcome to your charming 3-bedroom, 2-bathroom home in serene Upstate New York! This cozy house features a spacious layout with abundant natural light, perfect for enjoying peaceful mornings and evenings. The property boasts a modern architectural style, energy-efficient appliances, and a welcoming atmosphere that makes it ideal for relaxing and entertaining. With 2,100 sqft of living space, this home offers both comfort and functionality, making it a perfect retreat from the bustling city life.",
-        "Neighborhood_Description": "Nestled in the heart of Upstate New York, this neighborhood offers a peaceful and close-knit community ambiance. Enjoy the convenience of being near a popular wings restaurant, where you can indulge in delicious local flavors at your doorstep. Explore nearby parks, scenic trails, and charming local shops, creating a perfect blend of relaxation and entertainment. With easy access to transportation and a friendly atmosphere, Upstate New York provides a desirable lifestyle for those seeking a balance between nature and city amenities."
+        "Description": "Welcome to this charming 3-bedroom, 2-bathroom house in upstate New York! This home boasts a spacious layout with 2,100 sqft of living space, perfect for comfortable everyday living and entertaining. Enjoy the bright and airy interior filled with natural light, creating a warm and inviting atmosphere. The property features modern amenities and a well-designed floor plan for easy living.",
+        "Neighborhood_Description": "Experience the cozy charm of the New York neighborhood, with its friendly community atmosphere and convenient location near a popular wings restaurant. Explore local parks, dine at nearby restaurants, and easily access transportation options. Embrace the relaxed yet vibrant lifestyle this area offers, making it a perfect place to call home."
     },
     {
+        "Address": "123 E Elm Street, Baltimore",
         "Neighborhood": "Baltimore",
         "Price": "$190,000",
         "Bedrooms": 3,
         "Bathrooms": 2,
         "House_Size": "1,100 sqft",
-        "Description": "Welcome to your charming 3-bedroom, 2-bathroom house in the heart of Baltimore! This cozy home features a modern architectural style with ample natural lighting, perfect for creating a warm and inviting atmosphere. The property boasts a spacious layout, ideal for both relaxing and entertaining guests. With a prime location near Canton square, you'll enjoy easy access to a vibrant neighborhood with a variety of dining options right at your doorstep.",
-        "Neighborhood_Description": "Experience the lively community of Baltimore with this home's proximity to Canton square. Indulge in the diverse culinary scene with numerous dining options just a short stroll away. This neighborhood offers a perfect blend of urban convenience and local charm, ensuring you have everything you need within reach. Explore the nearby parks, shops, and entertainment venues for a dynamic lifestyle that awaits you."
+        "Description": "Welcome to this charming 3-bedroom, 2-bathroom home in Baltimore! This cozy abode boasts a spacious layout, perfect for comfortable living. Enjoy the abundance of natural light that fills the rooms, highlighting the modern interior design. The property's convenient location near Canton square offers easy access to a variety of dining options, making entertainment a breeze.",
+        "Neighborhood_Description": "Nestled in the vibrant Baltimore neighborhood, residents enjoy a lively community atmosphere with a multitude of dining options, parks, and local attractions. Explore the nearby parks or indulge in the culinary delights offered by the diverse array of restaurants in the area. With easy access to transportation and bustling city life, this neighborhood has something for everyone."
     },
     {
+        "Address": "123 Oak Street, Dallas",
         "Neighborhood": "Dallas",
         "Price": "$195,000",
         "Bedrooms": 2,
         "Bathrooms": 2,
         "House_Size": "1,700 sqft",
-        "Description": "Discover a charming 2-bedroom, 2-bathroom home in the vibrant city of Dallas. This cozy abode offers a comfortable living space with abundant natural light, perfect for relaxation or entertaining. Featuring a spacious layout and modern design elements, this home is ideal for those seeking a blend of comfort and style. Enjoy easy access to local amenities and the nearby PGA headquarters, providing ample opportunities for golf enthusiasts.",
-        "Neighborhood_Description": "Nestled in Dallas, this neighborhood offers a perfect blend of urban convenience and suburban tranquility. With close proximity to the prestigious PGA headquarters, residents can indulge in a golf-centric lifestyle. Explore nearby parks, dining options, and entertainment venues, creating a dynamic living experience for all. Enjoy a vibrant community atmosphere and easy access to major highways, making commuting a breeze."
+        "Description": "Charming 2-bedroom, 2-bathroom home in the heart of Dallas! This cozy abode boasts a spacious layout with ample natural light, perfect for both relaxation and entertainment. The property is located near the PGA headquarters, offering golf enthusiasts endless opportunities to perfect their swing. Embrace a lifestyle of comfort and convenience in this delightful home.",
+        "Neighborhood_Description": "The vibrant neighborhood of Dallas captures the essence of urban living with a touch of Southern charm. Explore nearby parks, exquisite dining options, and easy access to transportation hubs. Enjoy the proximity to the PGA headquarters, attracting golf aficionados and fostering a sense of community. Experience the best of city living while relishing the tranquil surroundings of this sought-after area."
     },
     {
+        "Address": "123 Oak Lane, Eldersburg",
         "Neighborhood": "Eldersburg",
         "Price": "$450,000",
         "Bedrooms": 4,
         "Bathrooms": 2,
         "House_Size": "1,900 sqft",
-        "Description": "Welcome to your spacious 4-bedroom, 2 bathroom home in Eldersburg! This charming house boasts a cozy yet modern architectural style with ample natural lighting throughout. The property features a well-designed floor plan, perfect for family living and entertaining. Enjoy the convenience of a great school district, ensuring top-notch education for your children.",
-        "Neighborhood_Description": "Nestled in the heart of Eldersburg, this neighborhood offers a peaceful and family-friendly atmosphere. Residents enjoy easy access to top-rated schools, scenic parks, and a variety of dining options. With excellent transportation connections and a strong sense of community, Eldersburg provides the ideal setting for a comfortable and fulfilling lifestyle."
+        "Description": "Welcome to this charming 4-bedroom, 2-bathroom home nestled in the desirable Eldersburg neighborhood. This well-maintained property features ample natural light, spacious bedrooms, and a cozy atmosphere perfect for family gatherings. Enjoy the convenience of a great school district and a location that offers both tranquility and accessibility.",
+        "Neighborhood_Description": "Eldersburg, known for its excellent schools and family-friendly environment, provides a perfect setting for a comfortable lifestyle. This community boasts beautiful parks, quality eateries, and convenient amenities, making it an ideal choice for families seeking a welcoming and vibrant neighborhood."
     },
     {
+        "Address": "123 S Desert Way, Phoenix",
         "Neighborhood": "Phoenix",
         "Price": "$400,000",
         "Bedrooms": 4,
         "Bathrooms": 2,
         "House_Size": "1,700 sqft",
-        "Description": "Welcome to your desert oasis in Phoenix! This 4-bedroom, 2-bathroom home offers stunning views of the surrounding valley, providing a tranquil and picturesque setting. The spacious interior boasts 1,700 sqft of living space, perfect for comfortable living and entertaining. Enjoy the unique experience of living in the desert while being surrounded by the beauty of nature.",
-        "Neighborhood_Description": "The Phoenix neighborhood offers a blend of serene desert landscapes with convenient access to urban amenities. Residents can enjoy the peaceful atmosphere, breathtaking views, and a strong sense of community. Explore nearby parks, hiking trails, and local eateries that capture the essence of Arizona living. With easy access to major highways, shopping centers, and cultural attractions, this neighborhood provides the perfect balance of relaxation and city living."
+        "Description": "Welcome to your desert oasis in the heart of Phoenix! This 4-bedroom, 2-bathroom home boasts stunning valley views, creating a serene and peaceful atmosphere. The property's spacious layout and abundance of natural light offer the perfect backdrop for both relaxation and entertaining. With its unique location in the desert, this home is a haven for nature lovers and those seeking tranquility.",
+        "Neighborhood_Description": "Nestled in the valley, the Phoenix neighborhood offers a harmonious blend of natural beauty and urban convenience. Residents enjoy breathtaking desert landscapes, perfect for outdoor enthusiasts and those seeking a peaceful retreat. Explore nearby parks and trails, indulge in local cuisine, and embrace the vibrant community atmosphere. With easy access to amenities and attractions, Phoenix provides a one-of-a-kind living experience."
     },
     {
-        "Neighborhood": "Dallas Suburbs",
+        "Address": "1122 Oak Forest Lane, Dallas",
+        "Neighborhood": "Dallas",
         "Price": "$600,000",
         "Bedrooms": 6,
         "Bathrooms": 2,
         "House_Size": "6,700 sqft",
-        "Description": "Welcome to your spacious 6-bedroom retreat in the peaceful Dallas suburbs! This stunning home offers ample living space ideal for large families or those who love to entertain. Enjoy the modern architectural design, abundance of natural light, and high-end finishes throughout. With 25-minute easy access to the city, you can experience a perfect blend of tranquility and urban convenience.",
-        "Neighborhood_Description": "Nestled in the vibrant Dallas suburbs, this neighborhood offers the best of both worlds. Enjoy a serene environment with well-maintained parks, top-rated schools, and friendly neighbors while still being a short drive away from the bustling city life. Explore local eateries, community events, and recreational activities just minutes from your doorstep. Experience suburban living at its finest in this desirable location!"
+        "Description": "Welcome to this stunning 6-bedroom, 2-bathroom suburban retreat in Dallas! This spacious home boasts 6,700 sqft of living space, offering ample room for relaxation and entertainment. With a convenient 25-minute drive to the city, enjoy the perfect blend of peaceful suburban living and easy access to urban amenities.",
+        "Neighborhood_Description": "Nestled in the suburbs of Dallas, this neighborhood offers a serene setting with easy access to city conveniences. Residents enjoy a community atmosphere, proximity to parks, restaurants, and a variety of local attractions. Experience the best of both worlds with this ideal location for your family's new home!"
     },
     {
+        "Address": "123 Main Street, New York",
         "Neighborhood": "New York",
         "Price": "$800,000",
         "Bedrooms": 1,
         "Bathrooms": 1,
         "House_Size": "900 sqft",
-        "Description": "Welcome to your sleek 1-bedroom apartment in the heart of New York! This modern gem offers 900 sqft of urban luxury living. The apartment boasts a contemporary design with high ceilings and ample natural light, creating a warm and inviting ambiance. Perfect for those who appreciate efficiency and style, this apartment is a true sanctuary in the bustling city.",
-        "Neighborhood_Description": "Located just a 15-minute walk from the park, this neighborhood offers the perfect blend of city convenience and greenery. Enjoy easy access to local cafes, restaurants, and shops, making it a walker's paradise. With a vibrant community atmosphere and proximity to various attractions, this area provides a dynamic urban living experience for residents."
+        "Description": "Modern and cozy 1-bedroom apartment in the heart of New York! This spacious unit features a stylish interior design, ample natural light, and a convenient layout. Perfect for urban living, this apartment offers easy access to the park and surrounding amenities.",
+        "Neighborhood_Description": "Experience the vibrant lifestyle of New York! This neighborhood is known for its lively atmosphere, excellent dining options, and easy access to parks. Enjoy a 15-minute walk to the park, ideal for outdoor activities and relaxation. Convenient transportation links make exploring the city a breeze."
     },
     {
+        "Address": "127 Ocean Drive, Miami",
         "Neighborhood": "Miami",
         "Price": "$800,000",
         "Bedrooms": 1,
         "Bathrooms": 1,
         "House_Size": "1,200 sqft",
-        "Description": "Welcome to your urban sanctuary in Miami! This 1-bedroom, 1-bathroom apartment offers modern elegance and comfort. With 1,200 sqft of living space, this home features sleek design elements, ample natural light, and a convenient layout. Walk in and experience a blend of style and functionality perfect for contemporary living. Located just a 15-minute walk from the beach, indulge in a coastal lifestyle every day!",
-        "Neighborhood_Description": "Live the vibrant Miami lifestyle in this diverse neighborhood. Enjoy the convenience of being a short stroll away from the sandy beaches, where sunsets are a daily treat. Explore trendy cafes, restaurants, and shops along the vibrant streets. Embrace the energetic atmosphere and easy access to waterfront activities, making this neighborhood a perfect blend of relaxation and excitement."
+        "Description": "Welcome to your urban oasis just a 15-minute leisurely stroll from the sandy beaches of Miami. This chic 1-bedroom apartment boasts modern design elements, abundant natural light, and a spacious layout perfect for comfortable living. Enjoy the convenience of city living with a touch of coastal charm.",
+        "Neighborhood_Description": "Living in Miami offers a vibrant lifestyle with an eclectic mix of cultural experiences, world-class dining, and stunning waterfront views. Residents enjoy easy access to sandy beaches, trendy boutiques, and iconic landmarks. Embrace the Miami vibe with this prime location."
     }
 ]
